@@ -30,7 +30,7 @@ Example in your ***loop()*** method of your *.ino* file
 ```
 void loop()
 {
-  
+  UTILS->getRGB(color, (long) strtol("FFCC33", NULL, 16));
 }
 ```
 
